@@ -1,5 +1,6 @@
 body{
     margin:0;
+    width:100%;
 }
 .checkbox{
     display: none;
@@ -15,6 +16,7 @@ ul{
 }
 header{
     width:100%;
+
     text-align: center;
     border-top: solid 3px purple;
 }
@@ -443,12 +445,15 @@ footer{
     vertical-align: middle;
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 1010px) {
     .pc{
         display: none;
     }
     .sp{
         display: inline;
+    }
+    body{
+        overflow-x: hidden;
     }
     .humberger {
         position: relative;
@@ -485,6 +490,8 @@ footer{
         position: fixed;
         background-color: white;
         z-index: 10;
+        margin:0;
+        padding:0;
     }
     main{
         padding-top: 55px;;
@@ -600,7 +607,8 @@ footer{
     .button a{
         font-size: 14px;
     }
-
+}
+@media screen and (max-width: 780px) {
     /*フッターのメニュー*/
     .footer-menu{
         padding:0;
