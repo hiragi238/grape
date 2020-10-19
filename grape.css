@@ -494,7 +494,8 @@ footer{
         padding:0;
     }
     main{
-        padding-top: 55px;;
+        padding-top: 55px;
+        width:100%;
     }
     .headerwrapper + .sp{
         width: 100%;
