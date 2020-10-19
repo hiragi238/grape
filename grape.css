@@ -501,6 +501,7 @@ footer{
     main{
         padding-top: 55px;
         width:100%;
+        background-color:white;
     }
     .headerwrapper + .sp{
         width: 100%;
