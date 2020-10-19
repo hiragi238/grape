@@ -7,9 +7,8 @@
     <link href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" rel="stylesheet">
 </head>
 <body>
-    <div class ="line"></div>
     <header>
-        <div class ="headerwrapper">
+        <div class ="headerwrapper pc">
             <a href ="#top" class ="logo"><img src="logo.png"></a>
             <div class ="navi">
                 <ul>
@@ -60,6 +59,76 @@
                         </a>
                     </li>
                 </ul>
+            </div>
+        </div>
+
+        <div class ="headerwrapper sp">
+            <div class="menu-wrapper">
+                <input id ="menu-check" class="menu-check" type="checkbox">
+                <label class ="menu-checklabel" for="menu-check">
+                    <div class="humberger">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <br>
+                    メニュー
+                </label>
+                <div class="menu">
+                    <div class ="navi">
+                        <ul>
+                            <li>
+                                <a href ="product.html">
+                                    <h1>商品のご紹介</h1>
+                                    <h2>PRODUCTS</h2>
+                                </a>
+                            </li>
+                            <li>
+                                <a href ="about.html">
+                                    <h1>こだわりのぶどう</h1>
+                                    <h2>ABOUT GRAPE</h2>
+                                </a>
+                            </li>
+                            <li>
+                                <a href ="map.html">
+                                    <h1>サイトマップ</h1>
+                                    <h2>SITE MAP</h2>
+                                </a>
+                            </li>
+                            <li>
+                                <a href ="contact.html">
+                                    <h1>お問い合わせ</h1>
+                                    <h2>CONTACT</h2>
+                                </a>
+                            </li>
+                            <li>
+                                <a href ="company.html">
+                                    <h1>会社概要</h1>
+                                    <h2>CORPORATE</h2>
+                                </a>
+                            </li>
+                            <li class="spsubmenu">
+                                <a href ="mypage.html">
+                                    <i class="fas fa-user"></i>
+                                    マイページ
+                                </a>
+                            </li>
+                            <li class="spsubmenu">
+                                <a href ="shopping.html">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    ショッピングカート
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <a href ="#top" class ="logo"><img src="logo.png"></a>
+            <div class="cart">
+                <a href ="shopping.html">
+                    <i class="fas fa-shopping-cart"></i>
+                    <br>カート
+                </a>
             </div>
         </div>
     </header>
@@ -271,6 +340,9 @@
                         <h2>こだわりのぶどう</h2>
                     </div>
                     <div class ="separate-box separate-box1">
+                        <div class ="rbox">
+                            <img src="3767538_s.jpg">
+                        </div>
                         <div class ="lbox">
                             <h1>Lorem ipsum dolor sit amet,consectetur</h1>
                             <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit,sed do eiusmod tempor incididunt utlabore et dolore magna</p>
@@ -280,9 +352,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class ="rbox">
-                            <img src="3767538_s.jpg">
-                        </div>
+
                     </div>
 
                     <div class ="separate-box separate-box2">
@@ -314,8 +384,11 @@
             </div>
             <ul>
                 <li>
-                    <h1>商品のご紹介</h1>
-                    <ul>
+                    <input id ="footer-menu1" class ="checkbox" type="checkbox">
+                    <label class ="footer-menu-checklabel" for="footer-menu1">
+                        <h1>商品のご紹介</h1>
+                    </label>
+                    <ul id ="footer-menu1-ul">
                         <li><a href ="#top">すべてのぶどう</a></li>
                         <li><a href ="#top">ぶどう</a></li>
                         <li><a href ="gift.html">ギフト</a></li>
@@ -323,14 +396,20 @@
                     </ul>
                 </li>
                 <li>
-                    <h1>こだわりのぶどう</h1>
+                    <input id ="footer-menu2" class ="checkbox" type="checkbox">
+                    <label class ="footer-menu-checklabel" for="footer-menu2">
+                        <h1>こだわりのぶどう</h1>
+                    </label>
                     <ul>
                         <li><a href ="#top">こだわりのぶどう</a></li>
                         <li><a href ="#top">最先端の栽培方法</a></li>
                     </ul>
                 </li>
                 <li>
-                    <h1>ご利用ガイド</h1>
+                    <input id ="footer-menu3" class ="checkbox" type="checkbox">
+                    <label class ="footer-menu-checklabel" for="footer-menu3">
+                        <h1>ご利用ガイド</h1>
+                    </label>    
                     <ul>
                         <li><a href ="#top">お買い物方法について</a></li>
                         <li><a href ="#top">お支払い方法について</a></li>
@@ -340,7 +419,10 @@
                     </ul>
                 </li>
                 <li>
-                    <h1>ぶどうのある生活</h1>
+                    <input id ="footer-menu4" class ="checkbox" type="checkbox">
+                    <label class ="footer-menu-checklabel" for="footer-menu4">
+                        <h1>ぶどうのある生活</h1>
+                    </label>
                     <ul>
                         <li><a href ="#top">Coming soon</a>
                     </ul>
